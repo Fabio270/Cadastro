@@ -50,7 +50,8 @@
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/nomeEt"/>
+        app:layout_constraintTop_toBottomOf="@id/nomeEt"
+        tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/emailEt"
@@ -62,13 +63,14 @@
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/telefoneEt" />
+        app:layout_constraintTop_toBottomOf="@id/telefoneEt"
+        tools:ignore="Autofill"/>
 
     <CheckBox
         android:id="@+id/emailCb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingressar na lista de e-mails?"
+        android:text="@string/ingressar_na_lista_de_e_mails"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailEt"
         />
