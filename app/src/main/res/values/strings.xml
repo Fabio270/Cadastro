@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Views</string>
     <string name="preencha_os_dados">Preencha os dados:</string>
-    <string name="nome">Nome</string>
+    <string name="nome">Nome Completo</string>
     <string name="sobrenome">Sobrenome</string>
     <string name="email">email</string>
     <string name="estado_civil">Estado Civil</string>
@@ -12,10 +12,24 @@
     <string name="feminino">Feminino</string>
     <string name="salvar">Salvar</string>
     <string name="limpar">Limpar</string>
+    <string name="cidade">cidade</string>
+    <string name="uf">UF</string>
+    <string name="_99_99999_9999">(99)99999-9999</string>
     <string-array name="estado_civil_array">
         <item>Solteiro</item>
         <item>Divorciado</item>
         <item>Casado</item>
         <item>Viúvo</item>
+    </string-array>
+    <string-array name="lista_uf">
+        <item name="uf_ac">Acre</item>
+        <item name="uf_ro">Rondonia</item>
+        <item name="uf_am">Amazonas</item>
+        <item name="uf_sp">Sao Paulo</item>
+        <item name="uf_rj">Rio de Janeiro</item>
+        <item name="uf_mg">Minas Gerais</item>
+        <item name="uf_ms">Mato Grosso do Sul</item>
+        <item name="uf_mt">Mato Grosso</item>
+        <item name="uf_pb">Paraíba</item>
     </string-array>
 </resources>
