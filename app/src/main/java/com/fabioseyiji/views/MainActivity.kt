@@ -36,7 +36,17 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
+        with(amb){
+            limparBt.setOnClickListener{
+                nomeEt.text.clear()
+                telefoneEt.text.clear()
+                emailEt.text.clear()
+                emailCb.isChecked = false
+                sexoRg.clearCheck()
+                cidadeEt.text.clear()
+                ufSp.setSelection(0)
+            }
+        }
 
     }
 }
