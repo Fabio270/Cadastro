@@ -22,9 +22,11 @@ class MainActivity : AppCompatActivity() {
             setSupportActionBar(this)
         }
 
+        var formulario: Formulario
+
         with(amb) {
             salvarBt.setOnClickListener {
-                val formulario = Formulario(
+                    formulario = Formulario(
                     nomeEt.text.toString(),
                     telefoneEt.text.toString(),
                     emailEt.text.toString(),
@@ -33,6 +35,8 @@ class MainActivity : AppCompatActivity() {
                     cidadeEt.text.toString(),
                     ufSp.selectedItem.toString()
                 )
+
+                Toast.makeText(this@MainActivity, formulario.toString(), Toast.LENGTH_SHORT).show()
             }
         }
 

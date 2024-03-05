@@ -111,7 +111,7 @@
 
     <EditText
         android:id="@+id/cidadeEt"
-        android:inputType="text"
+        android:inputType="textPostalAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/cidade"

@@ -22,6 +22,7 @@
         <item>Viúvo</item>
     </string-array>
     <string-array name="lista_uf">
+        <item name="uf_notSelected">Selecione a UF</item>
         <item name="uf_ac">Acre</item>
         <item name="uf_ro">Rondonia</item>
         <item name="uf_am">Amazonas</item>

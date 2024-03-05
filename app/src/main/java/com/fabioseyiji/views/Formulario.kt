@@ -10,6 +10,14 @@ class Formulario(
     val uf: String
 ) {
     override fun toString(): String {
-        return "Formulario(name='$nome', telefone='$telefone', email='$email', adicionaListaEmail=$adicionaListaEmail, sexo='$sexo', cidade='$cidade', uf='$uf')"
+        return """
+        Nome: '$nome'
+        Telefone: '$telefone'
+        Email: '$email'
+        Lista de emails: $adicionaListaEmail
+        Sexo: '$sexo'
+        Cidade: '$cidade'
+        UF: '$uf'
+    """.trimIndent()
     }
 }
